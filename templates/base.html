@@ -1,0 +1,28 @@
+<!-- base.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% block head %}
+        {% endblock %}
+        <link rel="icon" href="img/icone.ico" type="image/png">
+    </head>
+    <body>
+
+        <header>
+            <img class="logo" src="{{ url_for('static', filename='images/logo.png') }}" alt="logo">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="{{ url_for('index') }}" {% if active_page == 'home' %}class="active"{% endif %}>Home</a></li>
+                    <li><a href="{{ url_for('sobre') }}" {% if active_page == 'sobre' %}class="active"{% endif %}>Sobre</a></li>
+                    <li><a href="{{ url_for('contato') }}" {% if active_page == 'contato' %}class="active"{% endif %}>Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        {% block conteudo %}
+        {% endblock %}
+
+    </body>
+</html>
