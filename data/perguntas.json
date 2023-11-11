@@ -1,0 +1,17 @@
+[
+    {
+        "pergunta": "Qual é a capital do Brasil?",
+        "respostas": ["São Paulo", "Rio de Janeiro", "Brasília","Pernambuco"],
+        "resposta_correta": "Brasília"
+    },
+    {
+        "pergunta": "Quem é o autor de 'Dom Quixote'?",
+        "respostas": ["Miguel de Cervantes", "William Shakespeare", "Charles Dickens", "joao"],
+        "resposta_correta": "Miguel de Cervantes"
+    },
+    {
+        "pergunta": "Quanto é 2 + 2?",
+        "respostas": ["3", "4", "5", "7"],
+        "resposta_correta": "4"
+    }
+]

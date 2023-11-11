@@ -16,6 +16,18 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+.logo{
+    width: 123px;
+    height: 65px;
+    cursor: pointer;
+}
 .botao_desistir{
     border: 5px solid #FF0909;
     width: 330px;
@@ -61,6 +73,7 @@ body{
     display: flex;
     justify-content: center;
     place-items: center;
+    
 }
 .header{
     display: flex;
@@ -88,6 +101,10 @@ body{
     display: grid;
     place-items: center;
     margin: 30px;
+}
+.gridando{
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
 }
 .pergunta{
     font-family: 'inter', sans-serif;

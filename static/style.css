@@ -1,75 +1,6 @@
-@font-face {
-    font-family: 'inter';
-    src: url(fontes/Inter-Regular.ttf) format('ttf');
-
-    font-family: 'ethnocentric';
-    src: url(fontes/ethnocentric/ethnocentric\ rg\ it.otf)
-}
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
-}
-
 body{
     background-image: url('images/fundo.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-}
-li, a {
-    font-family: 'inter', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    
-    
-}
-a{
-    border-bottom: 1px solid white;
-    padding-bottom: 3px;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-
-}
-
-.logo{
-    width: 130px;
-    height: 65px;
-    cursor: pointer;
-}
-
-.nav_links{
-    list-style: none;
-}
-
-.nav_links li{
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.nav_links li a{
-    transition: all 0.3s ease 0s;
-}
-
-.nav_links li a:hover{
-    color: #A248E9;
-    border-color: #A248E9;
-}
-
-.active{
-    border-color: #A248E9;
-}
-
-.active:hover{
-    text-shadow: 2px 2px 4px #a232be;;
 }
 
 .geral{
@@ -91,7 +22,6 @@ header{
     
     margin-top: 8%;
     margin-right: 10%;
-    
 }
 
 .apresentacao h1{
