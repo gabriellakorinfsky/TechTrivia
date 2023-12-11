@@ -31,6 +31,10 @@ a{
     padding-bottom: 3px;
 }
 
+#rota{
+    border:0px;
+}
+
 header{
     display: flex;
     justify-content: space-between;

@@ -1,0 +1,103 @@
+[
+    {
+        "pergunta": "O modelo CMM possui 5 níveis de maturidade, eles são nomeados em ordem crescente:",
+        "respostas": [
+            "a) Incompleto, Repetível, Definido, Conforme e Otimização",
+            "b) Inicial, Gerenciado, Adaptado, Definido e Qualificação.",
+            "c) Inicial, Repetível, Definido, Gerenciado e Otimização",
+            "d) Inicial, Repetível, Gerenciado, Qualificado e Otimização."
+        ],
+        "resposta_correta": "c) Inicial, Repetível, Definido, Gerenciado e Otimização"
+    },
+    {
+        "pergunta": "A capabilidade ou capacidade de uma empresa está relacionada diretamente com:",
+        "respostas": [
+            "a) Os resultados esperados.",
+            "b) A quantidade de funcionários",
+            "c) Os resultados obtidos.",
+            "d) O tipo de empresa."
+        ],
+        "resposta_correta": "a) Os resultados esperados."
+    },
+    {
+        "pergunta": " “Poucos processos são definidos e o sucesso depende de esforço individual.” Estamos falando de uma organização que se encontra no nível de maturidade CMM:",
+        "respostas": [
+            "a) Incompleto.",
+            "b) Inicial.",
+            "c) Juvenil.",
+            "d) Imaturo."
+        ],
+        "resposta_correta": "b) Inicial."
+    },
+    {
+        "pergunta": "“Os compromissos realistas do projeto são baseados em resultados observados em projetos anteriores e nos requisitos do projeto atual.” Estamos falando da característica marcante de qual nível de maturidade CMM?",
+        "respostas": [
+            "a) Nível 1",
+            "b) Nível 2",
+            "c) Nível 3",
+            "d) Nível 4"
+        ],
+        "resposta_correta": "b) Nível 2"
+    },
+    {
+        "pergunta": "A qualidade, mesmo exigida e existente em todos os níveis de maturidade, mesmo que em diferentes níveis, começa a ser mensurada e se torna foco principal em qual nível CMM?",
+        "respostas": [
+            "a) Otimização.",
+            "b) Conforme.",
+            "c) Definido.",
+            "d) Gerenciado."
+        ],
+        "resposta_correta": "d) Gerenciado."
+    },
+    {
+        "pergunta": "As metas a serem atingidas para a institucionalização de determinado nível de maturidade no CMM são conhecidas como:",
+        "respostas": [
+            "a) Metas Gerais.",
+            "b) Áreas-chave de processo.",
+            "c) Identificadores.",
+            "d) Niveladores."
+
+        ],
+        "resposta_correta": "b) Áreas-chave de processo."
+    },
+    {
+        "pergunta": "Quantas KPAs são necessárias para que uma empresa atinja o nível 1 de Maturidade no CMM?",
+        "respostas": [
+            "a) Nenhuma.",
+            "b) Quatro.",
+            "c) Cinco.",
+            "d) Seis"
+        ],
+        "resposta_correta": "a) Nenhuma."
+    },
+    {
+        "pergunta": "Quantas KPAs estão distribuídas entre os níveis de maturidade do modelo CMM?",
+        "respostas": [
+            "a) 15.",
+            "b) 17.",
+            "c) 18",
+            "d) 20."
+        ],
+        "resposta_correta": "c) 18"
+    },
+    {
+        "pergunta": "Qual das alternativas a seguir NÃO é uma KPA do CMM?",
+        "respostas": [
+            "a) Seleção de Reciclagem",
+            "b) Gestão de Requisitos.",
+            "c) Programa de Treinamento.",
+            "d) Revisão por Pares."
+        ],
+        "resposta_correta": "a) Seleção de Reciclagem"
+    },
+    {
+        "pergunta": "Uma avaliação CMM possui seis passos principais. Sendo assim, qual o primeiro passo para se realizar uma avaliação CMM?",
+        "respostas": [
+            "a) Visitar o local.",
+            "b) Selecionar a equipe.",
+            "c) Criar um questionário",
+            "d) Realizar observações."
+        ],
+        "resposta_correta": "b) Selecionar a equipe."
+    }
+]

@@ -38,6 +38,7 @@ header{
     justify-content: center;
     align-items: center;
     margin-right: 130px;
+    cursor: pointer;
 }
 .bot{
     font-family: 'inter', sans-serif;
@@ -46,6 +47,7 @@ header{
     background: none;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
     border: none;
+    cursor: pointer;
 }
 .button2{
     font-family: 'inter', sans-serif;
@@ -56,7 +58,11 @@ header{
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
     border: none;
 }
+.button2 a{
+  text-decoration: none;
+}
 .botao_passar{
+    cursor: pointer;
     margin-top: 50px;
     margin-left: 5px;
     margin: 65px;
@@ -75,6 +81,7 @@ header{
     place-items: center;
     
 }
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -83,7 +90,7 @@ header{
 .caixa_pergunta{
     border: 5px solid #076790;
     width: 1081px;
-    height: 157px;
+    height: 175px;
     border-radius: 15px;
     box-shadow: 0 0 0px #076790, 0 0 0px #076790, 0 0 30px #076790;
     justify-content: center;
@@ -91,20 +98,10 @@ header{
     place-items: center;
     margin: 30px;
 }
-.caixa_resposta{
-    border: 5px solid #E423EC;
-    width: 503px;
-    height: 157px;
-    border-radius: 15px;
-    box-shadow: 0 0 0px #E423EC, 0 0 0px #E423EC, 0 0 30px #E423EC;
-    justify-content: center;
-    display: grid;
-    place-items: center;
-    margin: 30px;
-}
+
 .gridando{
     display: grid;
-        grid-template-columns: repeat(2, 1fr);
+
 }
 .pergunta{
     font-family: 'inter', sans-serif;
@@ -114,4 +111,109 @@ header{
     background: none;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
     border: none;
+}
+
+/*Estilizando o botão input*/
+  form{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    width:1090px;
+
+  }
+  .caixa_resposta{
+    border: 5px solid #E423EC;
+    width: 500px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 0 0 0px #E423EC, 0 0 0px #E423EC, 0 0 30px #E423EC;
+    justify-content:left;
+    
+    display: grid;
+    place-items: center;
+    margin: 15px;
+
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+
+  }
+  
+  .caixa_resposta label {
+    background: #fff no-repeat center center;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    word-wrap: break-word;
+
+
+
+  }
+  
+  .caixa_resposta label pre {
+    z-index: 1;
+    color: #000000;   
+    word-wrap: break-word;
+  }
+
+
+  .caixa_resposta label input[type=radio] {
+    all: unset;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .caixa_resposta label input[type=radio]:checked {
+    border-radius: 8px;
+    background-color: rgb(208, 122, 248);
+  }
+  .caixa_resposta label input[type=radio]:checked + span{
+    color: #000000;
+  }
+
+  .mensagem{
+    border: 5px solid rgb(255, 0, 0);
+    height: 50px;
+    display: block;
+    color: #fff;
+  }
+
+@media screen and (min-width: 600px) and (max-width: 1375px) {
+    .botao_desistir{
+      width: 250px;
+      height: 50px;
+      margin-right: 20px;
+  }
+  .bot{
+      font-size: 25px;
+  }
+  .caixa_pergunta{
+    width: 1051px;
+    height: 135px;
+
+}
+  .pergunta{
+    font-size: 20px;
+  } 
+  .caixa_resposta label pre {
+    font-size: 13px;
+  }
+  .caixa_resposta{
+    width: 500px;
+    height: 85px;
+
+  }
+  .botao_passar{
+
+    margin-top: 0px;
+    margin: 0px;
+}
 }

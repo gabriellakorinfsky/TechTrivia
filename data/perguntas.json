@@ -1,17 +1,98 @@
 [
     {
-        "pergunta": "Qual é a capital do Brasil?",
-        "respostas": ["São Paulo", "Rio de Janeiro", "Brasília","Pernambuco"],
-        "resposta_correta": "Brasília"
+        "pergunta": " O que é um Internet Gateway em um VPC?",
+        "respostas": [
+            "a) Um serviço de banco de dados relacional em nuvem\n com acesso pela Internet.",
+            "b) Uma instância EC2 com IP público liberado para\n acesso a Internet.",
+            "c) Um serviço de backup em nuvem pela Internet.",
+            "d) Um recurso que permite a comunicação entre a\n VPC e a Internet."],
+        "resposta_correta": "d) Um recurso que permite a comunicação entre a VPC e a Internet."
     },
     {
-        "pergunta": "Quem é o autor de 'Dom Quixote'?",
-        "respostas": ["Miguel de Cervantes", "William Shakespeare", "Charles Dickens", "joao"],
-        "resposta_correta": "Miguel de Cervantes"
+        "pergunta": "Rede onde é possível armazenar dados por meio do sistema local e pela nuvem, é chamada de:",
+        "respostas": [
+            "a) Rede Híbrida.",
+            "b) Rede Alternada.",
+            "c) Rede Privada.",
+            "d) Rede Pública."],
+        "resposta_correta": "a) Rede Híbrida."   
     },
     {
-        "pergunta": "Quanto é 2 + 2?",
-        "respostas": ["3", "4", "5", "7"],
-        "resposta_correta": "4"
+        "pergunta": "Uma empresa resolveu utilizar serviços e softwares de computação nas nuvens. Isso significa que:",
+        "respostas": [
+            "a) Terá que pagar pelo uso dos softwares de\n terceiros que utilizará na nuvem.",
+            "b) Além do navegador, terá que instalar um software\n que permite acessar recursos na nuvem.",
+            "c) Poderá acessar softwares instalados em servidores\n de outras empresas na internet para realizar serviços.",
+            "d) Poderá utilizar softwares na nuvem gratuitamente,\n mas os arquivos gerados não poderão ser armazenados na nuvem."],
+        "resposta_correta": "c) Poderá acessar softwares instalados em servidores de outras empresas na internet para realizar serviços."  
+    },
+    {
+        "pergunta": "O que é escalabilidade em computação em nuvem?",
+        "respostas": [
+            "a) A capacidade de diminuir a velocidade de\n conexão com a Internet.",
+            "b) A habilidade de ajustar os recursos de\n computação de acordo com a demanda.",
+            "c) A capacidade de armazenar dados em discos\n rígidos externos.",
+            "d) A capacidade de aumentar a segurança dos\n dados na nuvem."],
+        "resposta_correta": "b) A habilidade de ajustar os recursos de computação de acordo com a demanda."   
+    },
+    {
+        "pergunta": "Qual é o propósito principal de usar um VPC na AWS?",
+        "respostas": [
+            "a) Armazenar dados criptografados em blocos\n no disco virtual EBS.",
+            "b) Executar aplicativos isolados por VPN na\n nuvem híbrida.",
+            "c) Isolar recursos de rede e criar uma\n infraestrutura de rede privada na nuvem.",
+            "d) Criar servidores web públicos sem\n controle de acesso interno."],
+        "resposta_correta": "c) Isolar recursos de rede e criar uma infraestrutura de rede privada na nuvem."
+    },
+    {
+        "pergunta": "Qual dos seguintes descreve uma característica da computação em nuvem pública?",
+        "respostas": [
+            "a) A infraestrutura é gerenciada e\n operada exclusivamente pela organização",
+            "b) É altamente personalizada e voltada\n para necessidades exclusivas.",
+            "c) Geralmente é mais cara de implantar\n do que outros modelos de nuvem",
+            "d) Os recursos são compartilhados entre\n várias organizações e acessados pela Internet."
+        ],
+        "resposta_correta": "d) Os recursos são compartilhados entre várias organizações e acessados pela Internet."
+    },
+    {
+        "pergunta": "Qual é a principal finalidade do Amazon S3?",
+        "respostas": [
+            "a) Armazenar e recuperar dados incluindo\n arquivos, imagens e vídeos",
+            "b) Armazenar dados em formato de banco de\n dados relacionais como MongoDB.",
+            "c) Hospedar websites dinâmicos em linguagens\n como Java, PHP e Python.",
+            "d) Armazenar backups de sistema operacional\n realizados de forma assíncrona."
+        ],
+        "resposta_correta": "a) Armazenar e recuperar dados incluindo arquivos, imagens e vídeos."
+    },
+    {
+        "pergunta": "Qual dos seguintes não é um caso de uso típico para o Amazon S3 (Simple Storage Service) na AWS?",
+        "respostas": [
+            "a) Hospedagem de aplicativos web.",
+            "b) Armazenamento de arquivos de log.",
+            "c) Realização de backup de dados.",
+            "d) Armazenamento de objetos (imagens e vídeos)."
+        ],
+        "resposta_correta": "a) Hospedagem de aplicativos web."
+    },
+    {
+        "pergunta": "Qual das seguintes afirmações é verdadeira sobre a computação em nuvem multicloud?",
+        "respostas": [
+            "a) Multicloud se refere ao uso de várias instâncias\n de servidores em uma única nuvem pública.",
+            "b) É uma estratégia que envolve o uso de várias\n nuvens de diferentes provedores para atender às\n necessidades de uma organização.",
+            "c) É uma abordagem que se concentra exclusivamente \nna utilização de nuvens privadas.",
+            "d) A computação em nuvem multicloud é usada apenas\n por pequenas empresas."
+        ],
+        "resposta_correta": "b) É uma estratégia que envolve o uso de várias nuvens de diferentes provedores para atender às necessidades de uma organização."
+    },
+    {
+        "pergunta": "Qual das seguintes afirmações melhor descreve uma característica fundamental dos microserviços em ambientes de nuvem?",
+        "respostas": [
+            "a) Os microserviços são projetados para serem\n altamente acoplados, promovendo uma comunicação intensiva\n entre os componentes.",
+            "b) A escalabilidade é mais efetivamente alcançada em arquiteturas\n monolíticas, em comparação com os microserviços na nuvem.",
+            "c) Em um ambiente de nuvem, os microserviços são geralmente\n implantados como uma única unidade, simplificando\n a manutenção.",
+            "d) Os microserviços na nuvem favorecem a abordagem de\n desenvolvimento monolítica, consolidando todas as\n funcionalidades em um único serviço."
+        ],
+        "resposta_correta": "a) Os microserviços são projetados para serem altamente acoplados, promovendo uma comunicação intensiva entre os componentes."
     }
+
 ]

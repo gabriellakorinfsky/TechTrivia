@@ -1,0 +1,103 @@
+[
+    {
+        "pergunta": "Qual é a função da instrução `print()` em Python?",
+        "respostas": [
+            "a) Ler dados do usuário.",
+            "b) Imprimir na tela.",
+            "c) Executar um loop",
+            "d) Calcular uma expressão matemática."
+        ],
+        "resposta_correta": "b) Imprimir na tela."
+    },
+    {
+        "pergunta": "Como se define uma variável em Python?",
+        "respostas": [
+            "a) usando a palavra-chave `variable`.",
+            "b) com o símbolo de igual (=).",
+            "c) usando colchetes [ ].",
+            "d) com a palavra-chave `var`."
+        ],
+        "resposta_correta": "b) com o símbolo de igual (=)."
+    },
+    {
+        "pergunta": "O que representa a expressão `2 ** 3` em Python?",
+        "respostas": [
+            "a) 12.",
+            "b) 6.",
+            "c) 5.",
+            "d) 8."
+        ],
+        "resposta_correta": "d) 8."
+    },
+    {
+        "pergunta": "Como se realiza a leitura de dados do usuário em Python?",
+        "respostas": [
+            "a) `read()`.",
+            "b) `get_user_input()`.",
+            "c) `input()`.",
+            "d) `read_input()`."
+        ],
+        "resposta_correta": "c) `input()`."
+    },
+    {
+        "pergunta": "Qual é a função da estrutura de controle `if` em Python?",
+        "respostas": [
+            "a) Executar um bloco de código várias vezes",
+            "b) Verificar se uma condição é verdadeira\n e executar um bloco de código.",
+            "c) Realizar operações matemáticas.",
+            "d) Imprimir na tela."
+        ],
+        "resposta_correta": "b) Verificar se uma condição é verdadeira e executar um bloco de código."
+    },
+    {
+        "pergunta": "O que é uma lista em Python?",
+        "respostas": [
+            "a) Um tipo de dado para armazenar apenas\n números inteiros",
+            "b) Uma estrutura de controle de fluxo.",
+            "c) Um tipo de dado para armazenar uma coleção\n ordenada de elementos.",
+            "d) Um operador lógico."
+        ],
+        "resposta_correta": "c) Um tipo de dado para armazenar uma coleção ordenada de elementos."
+    },
+    {
+        "pergunta": " Qual é a função do operador `%` em Python?",
+        "respostas": [
+            "a) Divisão.",
+            "b) Módulo (resto da divisão).",
+            "c) Multiplicação.",
+            "d) Subtração."
+        ],
+        "resposta_correta": "b) Módulo (resto da divisão)."
+    },
+    {
+        "pergunta": "O que faz o código `len(lista)` em Python?",
+        "respostas": [
+            "a) Calcula o seno de um número",
+            "b) Retorna o comprimento (número\n de elementos) de uma lista.",
+            "c) Remove o último elemento de uma lista.",
+            "d) Converte uma lista em uma string."
+        ],
+        "resposta_correta": "b) Retorna o comprimento (número de elementos) de uma lista."
+    },
+    {
+        "pergunta": "Como se realiza um loop que percorre uma lista em Python?",
+        "respostas": [
+            "a) `for i in range(len(lista))`.",
+            "b) `loop lista:`.",
+            "c) `while lista:`.",
+            "d) `foreach item in lista:`."
+        ],
+        "resposta_correta": "a) `for i in range(len(lista))`."
+    },
+    {
+        "pergunta": "Qual é o propósito da função `range()` em Python?",
+        "respostas": [
+            "a) Criar uma lista de números.",
+            "b) Gerar uma sequência de números.",
+            "c) Calcular a média de uma lista.",
+            "d) Encontrar o máximo valor em uma lista."
+        ],
+        "resposta_correta": "b) Gerar uma sequência de números."
+    }
+  
+]

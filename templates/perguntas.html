@@ -12,47 +12,124 @@
     <div class="background">
 
         <header class="header">
-            <img class="logo" src="{{ url_for('static', filename='images/logo.png') }}" alt="logo">
+            <a href="{{ url_for('index') }}">
+                <img class="logo" src="{{ url_for('static', filename='images/logo.png') }}" alt="logo">
+            </a>
             <div class="botao_desistir">
-                <button class="bot">DESISTIR</button>
+                <button class="bot" id="botao_desistir">DESISTIR</button>
             </div>
         </header>
+        <div class="centro">
+            <div class="caixa_pergunta">
+                    <h3 class="pergunta">Pergunta {{num_pergunta}}: {{ pergunta.pergunta }}</h3>
+            </div>
+            
+        </div>
+        <div class="centro">
+            <span>Respostas Corretas: <span id="contadorRespostasCorretas">0</span></span>
+        </div>
+        <div class="centro">
+            <div class="gridando">
+                
+                <form method="POST" action="{{ url_for('exibir_pergunta', num_pergunta = num_pergunta)}}">
 
-        <form method="post" action="/">
-            {% for i, pergunta in enumerate(questions) %}
-                <div class="centro">
-                    <div class="caixa_pergunta">
-                            <h3 class="pergunta">Pergunta: {{ pergunta['pergunta'] }}</h3>
+                    {% for resposta in pergunta.respostas %}
+                        <div class="caixa_resposta">
+                            <label for="{{ resposta }}">
+                                <input type="radio" class="resposta" name="resposta" value="{{ resposta }}">
+                                <pre id="texto_resposta">{{ resposta }}</pre>
+                            </label><br>
+                        </div> 
+                    {% endfor %}
+                    <div class="botao_passar">
+                        <button class="button2">
+                            <a href="{{ url_for('exibir_pergunta', num_pergunta=num_pergunta - 1) }}"><</a>
+                        </button>
                     </div>
-                </div>
 
-                {% for resposta in pergunta['respostas'] %}
-                    <div class="centro">
-                        <div class="gridando">
-                            <div class="caixa_resposta">
-                                <button class="bot">{{ resposta }}</button>
-                            </div>
-                        </div>
+                    <div class="botao_passar">
+                        <button class="button2" onclick="return validarResposta()">
+                            <a href="{{ url_for('exibir_pergunta', num_pergunta=num_pergunta + 1) }}">></a>
+                        </button>
                     </div>
-
-                {% endfor %}
-                    <div class="centro">
-                        <div class="botao_passar">
-                            <button class="button2">
-                                <
-                            </button>
-                        </div>
-
-                        <div class="botao_passar">
-                            <button class="button2">
-                                >
-                            </button>
-                        </div>
-                    </div>
-                    
-            {% endfor %}    
-        </form>
-        
+                </form> 
+                
+            </div>
+        </div>
     </div>
+    <script>
+
+        var contadorRespostasCorretas = localStorage.getItem('contadorRespostasCorretas') || 0;
+
+        function validarResposta() {
+            var respostas = document.getElementsByClassName('resposta');
+            var respostaSelecionada = false;
+            var respostaCorreta = "{{ pergunta.resposta_correta }}";
+
+            for (var i = 0; i < respostas.length; i++) {
+                if (respostas[i].checked) {
+                    respostaSelecionada = true;
+                    var resposta = respostas[i].value;
+                    var caixaResposta = respostas[i].closest('.caixa_resposta');
+
+                    if (resposta === respostaCorreta) {
+                        caixaResposta.style.border = "50px solid #00FF00";  
+                        contadorRespostasCorretas++;
+                        localStorage.setItem('contadorRespostasCorretas', contadorRespostasCorretas);
+                        atualizarContador();
+                    } else {
+                        caixaResposta.style.border = "50px solid #FF0000";  
+                    }
+
+                    break;
+                }
+            }
+
+            if (!respostaSelecionada) {
+                alert('Selecione uma resposta antes de prosseguir.');
+                return false;
+            }
+
+            var numPerguntas = parseInt("{{ num_perguntas }}");
+            var numPergunta = parseInt("{{ num_pergunta }}");
+            if (numPergunta === numPerguntas) {
+                // Condição adicionada após a verificação das respostas
+                if (contadorRespostasCorretas === 0){
+                    alert('Você zerou o quiz! Precisa abrir o livro para começar a estudar!');
+                } else if (contadorRespostasCorretas < 5) {
+                    alert('Você precisa estudar mais! Você não foi nada bem!');
+                } else if (contadorRespostasCorretas >= 5 && contadorRespostasCorretas < numPerguntas) {
+                    alert('Você se saiu bem, mas precisa melhorar para tirar um 10! Estude mais um pouco!');
+                } else if (contadorRespostasCorretas === numPerguntas) {
+                    alert('Uau! Você é muito inteligente! Você acertou todas as perguntas!');
+                } else {
+                    alert("Houve um problema na contagem das respostas corretas.");
+                }
+                contadorRespostasCorretas = 0;
+                localStorage.setItem('contadorRespostasCorretas', contadorRespostasCorretas);
+                atualizarContador();
+            }
+
+            return true;
+        }
+
+        function atualizarContador() {
+            var contadorElemento = document.getElementById('contadorRespostasCorretas');
+            if (contadorElemento) {
+                contadorElemento.innerText = contadorRespostasCorretas;
+            }
+        }
+
+    
+        window.onload = function () {
+            atualizarContador();
+            document.getElementById('botao_desistir').addEventListener('click', function() {
+                contadorRespostasCorretas = 0;
+                localStorage.setItem('contadorRespostasCorretas', contadorRespostasCorretas);
+
+                window.location.href = "{{ url_for('quiz') }}";
+            });
+        };
+    </script>
 </body>
 </html>
