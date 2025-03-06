@@ -1,33 +1,42 @@
-# TechTrivia
+<h1>TechTrivia - QUIZ</h1> 
+
 Trabalho de Back-end
 
 Projeto quiz em andamento
 
-Alunos e Matrícula
+# Descrição
+
+Bem-vindo ao TechTrivia, um quiz interativo que oferece desafios em três áreas-chave do desenvolvimento de software:
+<ul>
+  <li>Cloud Computing: Teste seu conhecimento sobre serviços em nuvem, arquiteturas distribuídas e boas práticas na nuvem.</li>
+  <li>Maturidade em Desenvolvimento de Software: Avalie seus conhecimentos sobre o Capability Maturity Model (CMM) e como ele impacta a qualidade e eficiência dos processos de desenvolvimento.</li>
+  <li>Python: Teste suas habilidades em Python, desde o básico até tópicos avançados.</li>
+</ul>
+Este projeto tem como objetivo proporcionar uma experiência única de aprendizado e avaliação. Seja você um iniciante ou um desenvolvedor experiente, o TechTrivia oferece desafios que ajudarão no seu crescimento profissional.
+
+# Alunos que desenvolveram:
 
 <ul>
-  <li>01435394 - Filipe Alexandre Bulhões Gomes Pontes</li>
-  <li>01511663 - Gabriella Lacerda Chaves Korinfsky</li>
-  <li>01523550 - Geovanna Thereza Tavares da Silva</li>
-  <li>01512676 - José Hugo Chaves Filho</li>
-  <li>01257764 - Lucas Carneiro</li>
+  <li>Filipe Alexandre Bulhões Gomes Pontes</li>
+  <li>Gabriella Lacerda Chaves Korinfsky</li>
+  <li>Geovanna Thereza Tavares da Silva</li>
+  <li>José Hugo Chaves Filho</li>
+  <li>Lucas Carneiro</li>
 </ul>
 
-# Quiz de Cloud Computing, Maturidade em Desenvolvimento de Software e Python, o TechTrivia
+# Como Rodar o Projeto
+...
 
-Bem-vindo ao Quiz TechTrivia que combina desafios emocionantes em Cloud Computing, avaliação de maturidade em desenvolvimento de software e teste seu conhecimento em Python! Este repositório foi criado para proporcionar uma experiência única de aprendizado e avaliação em três áreas-chave do desenvolvimento de software.
+# Tecnologias Utilizadas
 
-## Cloud Computing
+Back-end: Python e Flask
+Banco de Dados: (Futuramente)
+Outras: (Qualquer outra tecnologia importante usada no projeto)
+Como Contribuir
+Se você gostaria de contribuir para o projeto, siga os passos abaixo:
 
-Explore seu conhecimento em Cloud Computing através de questões que abrangem serviços em nuvem populares, arquiteturas distribuídas e práticas recomendadas na nuvem. Desafie-se a compreender os conceitos fundamentais e avançados que são importantes para construir aplicações escaláveis e resilientes na nuvem.
+# Agradecimentos
 
-## Maturidade em Desenvolvimento de Software
-
-Avalie níveis de maturidade em desenvolvimento de software respondendo perguntas que abordam o Capability Maturity Model (CMM) e seus respectivos níveis. Ter conhecimento em modelos de maturidade como CMM ou CMMI pode levar a uma maior previsibilidade, eficiência e qualidade nos processos de desenvolvimento de software em uma organização.
-
-## Python
-
-Teste suas habilidades em Python com perguntas que abrangem desde conceitos básicos até tópicos avançados. Independentemente se você é um iniciante entusiasmado ou um desenvolvedor experiente em Python, este quiz oferece desafios adequados ao seu nível de conhecimento na linguagem de programação.
-
+Agradecimentos a todos os envolvidos no desenvolvimento do TechTrivia.
 
 ### Esperamos que você aproveite este quiz tríplice e que ele contribua para o seu crescimento profissional em Cloud Computing, Maturidade em desenvolvimento de Software e Python. Boa sorte e divirta-se!
