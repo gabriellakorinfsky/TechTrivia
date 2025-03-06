@@ -1,0 +1,7 @@
+/Lib/
+/site-package/
+
+venv/
+
+note.txt
+README.md
