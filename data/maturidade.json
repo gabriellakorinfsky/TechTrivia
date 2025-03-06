@@ -2,12 +2,12 @@
     {
         "pergunta": "O modelo CMM possui 5 níveis de maturidade, eles são nomeados em ordem crescente:",
         "respostas": [
-            "a) Incompleto, Repetível, Definido, Conforme e Otimização",
+            "a) Incompleto, Repetível, Definido, Conforme e Otimização.",
             "b) Inicial, Gerenciado, Adaptado, Definido e Qualificação.",
-            "c) Inicial, Repetível, Definido, Gerenciado e Otimização",
+            "c) Inicial, Repetível, Definido, Gerenciado e Otimização.",
             "d) Inicial, Repetível, Gerenciado, Qualificado e Otimização."
         ],
-        "resposta_correta": "c) Inicial, Repetível, Definido, Gerenciado e Otimização"
+        "resposta_correta": "c) Inicial, Repetível, Definido, Gerenciado e Otimização."
     },
     {
         "pergunta": "A capabilidade ou capacidade de uma empresa está relacionada diretamente com:",
@@ -66,7 +66,7 @@
             "a) Nenhuma.",
             "b) Quatro.",
             "c) Cinco.",
-            "d) Seis"
+            "d) Seis."
         ],
         "resposta_correta": "a) Nenhuma."
     },
@@ -75,27 +75,27 @@
         "respostas": [
             "a) 15.",
             "b) 17.",
-            "c) 18",
+            "c) 18.",
             "d) 20."
         ],
-        "resposta_correta": "c) 18"
+        "resposta_correta": "c) 18."
     },
     {
         "pergunta": "Qual das alternativas a seguir NÃO é uma KPA do CMM?",
         "respostas": [
-            "a) Seleção de Reciclagem",
+            "a) Seleção de Reciclagem.",
             "b) Gestão de Requisitos.",
             "c) Programa de Treinamento.",
             "d) Revisão por Pares."
         ],
-        "resposta_correta": "a) Seleção de Reciclagem"
+        "resposta_correta": "a) Seleção de Reciclagem."
     },
     {
         "pergunta": "Uma avaliação CMM possui seis passos principais. Sendo assim, qual o primeiro passo para se realizar uma avaliação CMM?",
         "respostas": [
             "a) Visitar o local.",
             "b) Selecionar a equipe.",
-            "c) Criar um questionário",
+            "c) Criar um questionário.",
             "d) Realizar observações."
         ],
         "resposta_correta": "b) Selecionar a equipe."

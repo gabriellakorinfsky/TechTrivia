@@ -42,8 +42,8 @@
     {
         "pergunta": "Qual é a função da estrutura de controle `if` em Python?",
         "respostas": [
-            "a) Executar um bloco de código várias vezes",
-            "b) Verificar se uma condição é verdadeira\n e executar um bloco de código.",
+            "a) Executar um bloco de código várias vezes.",
+            "b) Verificar se uma condição é verdadeira e executar um bloco de código.",
             "c) Realizar operações matemáticas.",
             "d) Imprimir na tela."
         ],
@@ -52,9 +52,9 @@
     {
         "pergunta": "O que é uma lista em Python?",
         "respostas": [
-            "a) Um tipo de dado para armazenar apenas\n números inteiros",
+            "a) Um tipo de dado para armazenar apenas números inteiros.",
             "b) Uma estrutura de controle de fluxo.",
-            "c) Um tipo de dado para armazenar uma coleção\n ordenada de elementos.",
+            "c) Um tipo de dado para armazenar uma coleção ordenada de elementos.",
             "d) Um operador lógico."
         ],
         "resposta_correta": "c) Um tipo de dado para armazenar uma coleção ordenada de elementos."
@@ -72,8 +72,8 @@
     {
         "pergunta": "O que faz o código `len(lista)` em Python?",
         "respostas": [
-            "a) Calcula o seno de um número",
-            "b) Retorna o comprimento (número\n de elementos) de uma lista.",
+            "a) Calcula o seno de um número.",
+            "b) Retorna o comprimento (número de elementos) de uma lista.",
             "c) Remove o último elemento de uma lista.",
             "d) Converte uma lista em uma string."
         ],
