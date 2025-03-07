@@ -1,10 +1,10 @@
-<h1>TechTrivia - QUIZ</h1> 
+<h1 align="center">TechTrivia - QUIZ</h1> 
 
-<br>
-# Objetivo do projeto
+## Objetivo do projeto
+
 O TechTrivia foi desenvolvido com o intuito de facilitar o estudo e a revisão de tópicos relacionados a Cloud Computing, Maturidade em Desenvolvimento de Software e Python, de forma interativa e divertida, por meio de um quiz.
 
-# Descrição
+## Descrição
 
 Bem-vindo ao TechTrivia, um quiz interativo que oferece desafios em três áreas-chave do desenvolvimento de software:
 <ul>
@@ -14,7 +14,7 @@ Bem-vindo ao TechTrivia, um quiz interativo que oferece desafios em três áreas
 </ul>
 Este projeto tem como objetivo proporcionar uma experiência única de aprendizado e avaliação. Seja você um iniciante ou um desenvolvedor experiente, o TechTrivia oferece desafios que ajudarão no seu crescimento profissional.
 
-# Alunos que desenvolveram:
+## Alunos que desenvolveram:
 
 <ul>
   <li>Filipe Alexandre Bulhões Gomes Pontes</li>
@@ -24,17 +24,17 @@ Este projeto tem como objetivo proporcionar uma experiência única de aprendiza
   <li>Lucas Carneiro</li>
 </ul>
 
-# Como Rodar o Projeto
+## Como Rodar o Projeto
 ...
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - Front-End: HTML/CSS
 - Back-end: Python e Flask
 - Armazenamento de Dados: JSON 
 - Banco de Dados: (Futuramente)
 
-# Agradecimentos
+## Agradecimentos
 
 Agradecimentos a todos os envolvidos no desenvolvimento do TechTrivia.
 
-### Esperamos que você aproveite este quiz tríplice e que ele contribua para o seu crescimento profissional em Cloud Computing, Maturidade em desenvolvimento de Software e Python. Boa sorte e divirta-se!
+**Esperamos que você aproveite este quiz tríplice e que ele contribua para o seu crescimento profissional em Cloud Computing, Maturidade em desenvolvimento de Software e Python. Boa sorte e divirta-se!**
