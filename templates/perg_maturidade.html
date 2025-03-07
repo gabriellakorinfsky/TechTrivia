@@ -38,7 +38,7 @@
                         <div class="caixa_resposta">
                             <label for="{{ resposta }}">
                                 <input type="radio" class="resposta" name="resposta" value="{{ resposta }}">
-                                <pre id="texto_resposta">{{ resposta }}</pre>
+                                <span class="texto_resposta">{{ resposta }}</span>
                             </label><br>
                         </div> 
                     {% endfor %}
@@ -76,12 +76,14 @@
                     var caixaResposta = respostas[i].closest('.caixa_resposta');
 
                     if (resposta === respostaCorreta) {
-                        caixaResposta.style.border = "50px solid #00FF00";  
+                        caixaResposta.classList.add('correto');
+                        caixaResposta.classList.remove('incorreto');  
                         contadorRespostasCorretas++;
                         localStorage.setItem('contadorRespostasCorretas', contadorRespostasCorretas);
                         atualizarContador();
                     } else {
-                        caixaResposta.style.border = "50px solid #FF0000";  
+                        caixaResposta.classList.add('incorreto');
+                        caixaResposta.classList.remove('correto');  
                     }
 
                     break;
