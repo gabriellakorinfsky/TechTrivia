@@ -1,8 +1,8 @@
 <h1>TechTrivia - QUIZ</h1> 
 
-Trabalho de Back-end
-
-Projeto quiz em andamento
+<br>
+# Objetivo do projeto
+O TechTrivia foi desenvolvido com o intuito de facilitar o estudo e a revisão de tópicos relacionados a Cloud Computing, Maturidade em Desenvolvimento de Software e Python, de forma interativa e divertida, por meio de um quiz.
 
 # Descrição
 
@@ -28,12 +28,10 @@ Este projeto tem como objetivo proporcionar uma experiência única de aprendiza
 ...
 
 # Tecnologias Utilizadas
-
-Back-end: Python e Flask
-Banco de Dados: (Futuramente)
-Outras: (Qualquer outra tecnologia importante usada no projeto)
-Como Contribuir
-Se você gostaria de contribuir para o projeto, siga os passos abaixo:
+- Front-End: HTML/CSS
+- Back-end: Python e Flask
+- Armazenamento de Dados: JSON 
+- Banco de Dados: (Futuramente)
 
 # Agradecimentos
 
