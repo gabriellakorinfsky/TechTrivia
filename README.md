@@ -31,7 +31,6 @@ Este projeto tem como objetivo proporcionar uma experiência única de aprendiza
 - Front-End: HTML/CSS
 - Back-end: Python e Flask
 - Armazenamento de Dados: JSON 
-- Banco de Dados: (Futuramente)
 
 ## Agradecimentos
 
